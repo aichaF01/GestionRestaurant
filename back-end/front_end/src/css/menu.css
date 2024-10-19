@@ -1,0 +1,134 @@
+.row .card-menu {
+    height: 480px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 300px;
+    border-radius: 900px; 
+    overflow: hidden;
+    margin: 10px;
+    flex-direction: column;
+    border: 5px solid rgb(92, 92, 92);
+}
+.bb{
+  margin-top: 50px;
+}
+.row .card-menu:hover{
+    transform: scale(1.04);
+    transition: 1s;
+}
+.page-menu {
+  background-image: url('../../public/images/background.avif');
+  background-position: center; 
+  margin-top: 60px;
+}
+
+
+img.card-img-top {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+  }
+
+.text-menu {
+    font-size: 1.05rem; 
+    text-align: center; 
+    margin: 10px 0; 
+  }
+.body-menu {
+    padding: 20px; 
+    text-align: center;
+}
+.title-menu {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+}
+
+.fixed-button {
+    position: absolute; 
+    bottom: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+  .subtitle-menu {
+    font-size: 1.45rem; 
+    color: black; 
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .text-menu, .subtitle-menu {
+    font-size: 1rem; 
+    text-align: center; 
+    margin: 10px 0; 
+  }
+  
+  
+  .d-flex .form-select {
+    width: 700px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 100px;
+    color: black;
+    background-color: white;
+  }
+  
+    .form-menu {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .d-flex .search-menu {
+    width: 700px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 100px;
+    color: black;
+    background-color: white;
+  }
+  
+  .d-flex .search-menu:focus {
+    border-color: black; 
+    outline: none; 
+  }
+
+  .d-flex .btn-menu {
+      padding: 8px 16px; 
+      font-size: 16px; 
+      border: 1px solid black; 
+      border-radius: 100px; 
+      background-color: white; 
+      color: black; 
+      cursor: pointer; 
+    }
+    
+    .d-flex .btn-menu:hover {
+      background-color: #f2cc86;
+      color: black; 
+      border: 2px solid black;
+    }
+    .row .btn-menu {
+      color: black;
+      border: 3px solid rgb(92, 92, 92);
+      font-size: 17px;
+    }
+    .row .btn-menu:hover {
+      background-color: #f2cc86;
+      color: black;
+      border: 1px solid black;
+    }
+    .row h2 {
+      text-align: center;
+      color: #d5ac61;
+    }   
+  
+  
+  
+
+  
+  
+  
+  

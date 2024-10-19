@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    /* Ajustez cette valeur selon vos besoins */
+    margin-bottom: 20px;
+    /* Pour ajouter un espace en dessous du titre */
+}
+
+.title-icon {
+    margin-right: 10px;
+    /* Espace entre l'image et le texte */
+    width: 100px;
+    /* Ajustez la taille de l'image */
+    height: 100px;
+    /* Ajustez la taille de l'image */
+}
+
+.table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.table th {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.table td {
+    font-size: 1rem;
+    color: #666;
+}
+
+.table th:first-child,
+.table td:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.table th:last-child,
+.table td:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
